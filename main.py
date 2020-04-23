@@ -79,36 +79,3 @@ while not end:
     if action == "exit":
         end = True
 
-
-params-switch -- on, off
-
-ip
-brandName
-
-productModel
-
-# print("API region: " + s.get_api_region())
-# print("user apikey: " + s.get_user_apikey())
-# print("Bearer token: " + s.get_bearer_token())
-
-"""
-
-if devices:
-    for d in devices:
-        # We found a device, lets turn something on
-        device_id = devices[0]['deviceid']
-        print("Switching device " + device_id + " ON")
-        device = Device(s, device_id)
-        #s.switch('on', device_id, None)
-        device.on()
-
-        time.sleep(3)
-        print("Switching device " + device_id + " OFF")
-        #s.switch('off', device_id, None)
-        device.off()
-
-# update config
-#config.api_region = s.get_api_region
-#config.user_apikey = s.get_user_apikey
-#config.bearer_token = s.get_bearer_token
-"""
