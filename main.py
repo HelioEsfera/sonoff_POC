@@ -20,7 +20,7 @@ def show_menu():
     print("Action Menu:")
     print(" 1.- Turn on")
     print(" 2.- Turn off")
-    print(" 3.- Check status (not implemented yet)")
+    print(" 3.- Check status")
     print(" 4.- Turn on, wait 3 seconds, turn off")
     print()
     print(" 0.- Exit")
