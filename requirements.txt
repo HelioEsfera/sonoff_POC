@@ -8,6 +8,6 @@ pysonofflan==0.3.0
 requests==2.23.0
 six==1.14.0
 sonoff-python==0.2.1
-urllib3==1.25.9
+urllib3==1.26.5
 websocket-client==0.57.0
 websockets==8.1
